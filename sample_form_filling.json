@@ -1,0 +1,50 @@
+{
+  "patient_demographics": {
+    "full_legal_name": "Alison M",
+    "date_of_birth": "1990-05-15",
+    "gender": "Female",
+    "address": "123 Cherry Lane, Wonderland, CA 90210",
+    "phone_number": "5551234567",
+    "email_address": "alice.w@example.com",
+    "preferred_language": "English"
+  },
+  "emergency_contact": {
+    "name": "Mad Hatter",
+    "relationship": "Friend",
+    "phone": "5559876543"
+  },
+  "insurance_and_financial": {
+    "primary_insurance": {
+      "provider_name": "Blue Rabbit Health",
+      "policy_number": "RBH123456789",
+      "group_number": "GRP789",
+      "subscriber_name": "Alice Wonderland",
+      "subscriber_dob": "1990-05-15"
+    },
+    "secondary_insurance": {
+      "has_secondary_insurance": false,
+      "provider_name": null,
+      "policy_number": null
+    },
+    "reason_for_visit_brief": "Annual physical check-up",
+    "financial_responsibility_acknowledged": true
+  },
+  "medical_history_overview": {
+    "opt_in": true,
+    "reason_for_appointment_full": "Routine annual check-up, no specific new concerns. Just want to maintain good health.",
+    "known_allergies": "Penicillin (rash)",
+    "current_medications": "Vitamin D (1000 IU daily)",
+    "major_past_medical_conditions": "None significant",
+    "referring_physician": null
+  },
+  "appointment_details": {
+    "desired_appointment_date": "2025-07-20",
+    "desired_appointment_time": "10:30:00",
+    "preferred_provider": "Dr. Cheshire Cat",
+    "special_needs": "None"
+  },
+  "legal_compliance": {
+    "consent_for_treatment_acknowledged": true,
+    "hipaa_privacy_acknowledged": true
+  }
+}
