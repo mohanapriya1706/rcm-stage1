@@ -1,4 +1,4 @@
-# [YOUR PROTOTYPE ENTITY NAME / DEMO CLINIC]
+# [PROTOTYPE ENTITY NAME / DEMO CLINIC]
 ## Notice of Privacy Practices
 
 **Effective Date: June 17, 2025**
