@@ -12,6 +12,8 @@ wheels/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-uv.lock
+# Env files 
+*.env
 
+uv.lock
 
