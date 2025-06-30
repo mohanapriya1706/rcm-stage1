@@ -3,7 +3,7 @@ import re
 import google.generativeai as genai
 
 # Configure Gemini
-genai.configure(api_key="AIzaSyA0fTkf0UZ0XANyNu9EilmY96BthrdcKqE")
+genai.configure(api_key="apikey")
 model = genai.GenerativeModel("gemini-2.0-flash")
 
 def safe_parse_llm_output(text: str):

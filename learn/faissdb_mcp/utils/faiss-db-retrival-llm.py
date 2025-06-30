@@ -7,7 +7,7 @@ import google.generativeai as genai
 FAISS_INDEX_PATH = "./faiss_index.index"           # Path to your FAISS index
 DOCS_JSON_PATH = "./metadata.json"                 # Your original text chunks (JSON list)
 EMBEDDING_MODEL_NAME = "all-MiniLM-L6-v2"          # Same embedding model used during indexing
-GEMINI_API_KEY = "AIzaSyA0fTkf0UZ0XANyNu9EilmY96BthrdcKqE"             # Replace with your Gemini API key
+GEMINI_API_KEY = "apikey"             
 TOP_K = 5                                           # Number of top documents to retrieve
 
 # --- Load FAISS index and documents ---
