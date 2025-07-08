@@ -5,7 +5,7 @@ from fastmcp import FastMCP, Context
 from contextlib import asynccontextmanager
 from dotenv import load_dotenv
 
-load_dotenv('./gemini.env', override=True)
+load_dotenv('../gemini.env', override=True)
 GEMINI_API_KEY = os.getenv('GOOGLE_API_KEY')
 if not GEMINI_API_KEY: raise EnvironmentError("...")
 
@@ -89,7 +89,6 @@ Context:
 
 Question: {user_query}
 Answer:"""
-
     # --- Query Gemini (server-side) ---
     try:
         response = await rag_context.gemini_model.generate_content_async(prompt)
