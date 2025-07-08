@@ -3,10 +3,14 @@ import faiss
 import json
 from sentence_transformers import SentenceTransformer
 import google.generativeai as genai
+from mcp.server.fastmcp import FastMCP
 from dotenv import load_dotenv
 
 # --- Load Environment Variables ---
 load_dotenv('gemini.env', override=True)
+
+
+mcp = FastMCP("rag_server")
 
 # --- Configuration ---
 GEMINI_API_KEY = os.getenv('GOOGLE_API_KEY')
