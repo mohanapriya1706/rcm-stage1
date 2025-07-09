@@ -12,6 +12,7 @@ dependencies = [
     "google-genai>=1.24.0",
     "google-generativeai>=0.8.5",
     "httpx>=0.28.1",
+    "langchain>=0.3.26",
     "python-dotenv>=1.1.1",
     "sentence-transformers>=5.0.0",
     "sqlglot>=26.31.0",
