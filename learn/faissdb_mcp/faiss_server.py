@@ -15,13 +15,13 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # ------------------ Env + Constants ------------------
-load_dotenv('./gemini.env', override=True)
+load_dotenv('agent.env', override=True)
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
 if not GEMINI_API_KEY:
     raise EnvironmentError("Missing GEMINI_API_KEY in environment.")
 
-FAISS_INDEX_PATH = "./faiss.index"
-DOCS_JSON_PATH = "./semantic_chunks.json"
+FAISS_INDEX_PATH = "faiss.index"
+DOCS_JSON_PATH = "semantic_chunks.json"
 EMBEDDING_MODEL_NAME = "all-MiniLM-L6-v2"
 TOP_K = 5
 
